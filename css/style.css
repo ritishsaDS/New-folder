@@ -188,8 +188,8 @@ section:nth-child(even){
   }
   
   .prev-btn, .next-btn{
-    z-index: 888
-    font-size: 2em;
+    z-index: 999;
+    font-size: 4em;
     color: #222;
     background: rgba(255, 255, 255, 0.8);
     padding: 10px;
