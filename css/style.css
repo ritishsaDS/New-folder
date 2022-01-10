@@ -350,14 +350,14 @@ cursor: pointer;
 }
 
 .about .row .content h3{
-    color: var(--light-color);
-    text-shadow: var(--text-shadow);
+    color:white;
+    text-shadow: white;
     font-size: 4rem;
     line-height: 1.8;
 }
 
 .about .row .content p{
-  color: rgb(3, 3, 3);
+  color: rgb(252, 247, 247);
     padding:1rem 0;
     font-size: 1.5rem;
     line-height: 1.8;
