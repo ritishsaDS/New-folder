@@ -419,7 +419,7 @@ color: rgb(12, 12, 12);
 
 
 .abouts .row{
-  display: flex;
+  display:grid;
  
   align-items: center;
   flex-wrap: wrap;
@@ -427,12 +427,12 @@ color: rgb(12, 12, 12);
 }
 
 .abouts .row .image{
-  flex:1 1 45rem;
+  flex:1 45rem;
  
 }
 
 .abouts .row .image img{
-  width: 100%;
+  width: 50%;
 }
 
 .abouts .row .content{
