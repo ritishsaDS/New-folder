@@ -389,18 +389,18 @@ cursor: pointer;
 
 .aboutlesft .row .content{
   flex:1 1 45rem;
-  color: rgb(252, 250, 250);
+  color: rgb(10, 10, 10);
 }
 
 .aboutlesft .row .content h3{
-  color:white;
+  color:rgb(8, 8, 8);
   text-shadow: white;
   font-size: 4rem;
   line-height: 1.8;
 }
 
 .aboutlesft .row .content p{
-color: rgb(252, 247, 247);
+color: rgb(12, 12, 12);
   padding:1rem 0;
   font-size: 1.5rem;
   line-height: 1.8;
