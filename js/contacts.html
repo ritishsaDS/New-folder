@@ -1,8 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mechanical designer </title>
@@ -12,29 +11,221 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body bgcolor="black">
     
-    </head>
-    <body>
+<!-- header section starts  -->
+
+<header class="header">
+
+  <a href="#" class="img" img src="image/logo.png"> NeonSign.Com </a>
+
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#about">about</a>
+        <a href="/js/contacts.html">Contact us</a>
+       
         
-    <!-- header section starts  -->
-    
-    <header class="header">
-    
-      <a href="#" class="img" img src="image/logo.png"> NeonSign.Com </a>
-    
-    
-          <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#services">services</a>
-            <a href="#about">about</a>
-            <a href="#contact">Contact us</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slider">
+        <div class="slide active">
+          <img src="image/1.jpeg" alt="">
+     
+        </div>
+        <div class="slide">
+          <img src="image/2.jpeg" alt="">
+        </div>
+		
+        <div class="slide">
+          <img src="image/3.jpeg" alt="">
+        </div>
+		
+        <div class="slide">
+          <img src="image/4.jpeg" alt="">
+        </div>
+		
+        <div class="slide">
+          <img src="image/5.jpeg" alt="">
+        </div>
+		
+        <div class="navigation">
+          <i class="fas fa-chevron-left prev-btn"></i>
+          <i class="fas fa-chevron-right next-btn"></i>
+        </div>
+		
+     </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+          
+            <h3>Made Your own Neon Design</h3>
+            <p>All Types of 3d Neon Design</p>
+            <a href="#.html" class="btn">  more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
            
-            
-        </nav>
+            <h3>Made Your Name Neon Design</h3>
+            <p>All Types of Neon Design all avilable</p>
+            <a href="#.html" class="btn">  more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        
+
+        
+
+    </div>
+
+</section>
+<section class="abouts" id="aboust">
+
+  <h1 class="heading"> <span>Our Gallery</span> </h1>
+
+  <div class="row">
+
+    <div class="image">
+      <img src="image/Screen_Shot_2020-11-10_at_12.58.31_AM.png" alt="">
+  </div>
+  <div class="image">
+    <img src="image/sec_left_2700x.jpg" alt="">
+</div> <div class="image">
+  <img src="image/5.jpeg" alt="">
+</div>
+      <div class="image">
+        <img src="image/logo.png" alt="">
+    </div>
+
+  </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>Made Your Own Neon Design</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/logo.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Neon Designing Information</h3>
+            <p>Solid 3D Models, Surface Component and Assemblies</p>
+            <p>Mechanical Designing information and Projects information and Downloads in 3D models Cetageory</p>
+            <a href="about.html" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+    </div>
+
+</section>
+<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+  <p>
+  <label>Name
+  <input type="text" name="customer_name" required>
+  </label> 
+  </p>
+  
+  <p>
+  <label>Phone 
+  <input type="tel" name="phone_number">
+  </label>
+  </p>
+  
+  <p>
+  <label>Email 
+  <input type="email" name="email_address">
+  </label>
+  </p>
+  
+  <fieldset>
+  <legend>Which taxi do you require?</legend>
+  <p><label class="choice"> <input type="radio" name="taxi" required value="car"> Car </label></p>
+  <p><label class="choice"> <input type="radio" name="taxi" required value="van"> Van </label></p>
+  <p><label class="choice"> <input type="radio" name="taxi" required value="tuktuk"> Tuk Tuk </label></p>
+  </fieldset>
+  
+  <fieldset>
+  <legend>Extras</legend>
+  <p><label class="choice"> <input type="checkbox" name="extras" value="baby"> Baby Seat </label></p>
+  <p><label class="choice"> <input type="checkbox" name="extras" value="wheelchair"> Wheelchair Access </label></p>
+  <p><label class="choice"> <input type="checkbox" name="extras" value="tip"> Stock Tip </label></p>
+  </fieldset>
+  
+  <p>
+  <label>Pickup Date/Time
+  <input type="datetime-local" name="pickup_time" required>
+  </label>
+  </p>
     
-        <div id="menu-btn" class="fas fa-bars"></div>
-    
-    </header>
+  <p>
+  <label>Pickup Place
+  <select id="pickup_place" name="pickup_place">
+  <option value="" selected="selected">Select One</option>
+  <option value="office" >Taxi Office</option>
+  <option value="town_hall" >Town Hall</option>
+  <option value="telepathy" >We'll Guess!</option>
+  </select>
+  </label> 
+  </p>
+  
+  <p>
+  <label>Dropoff Place
+  <input type="text" name="dropoff_place" required list="destinations">
+  </label>
+  
+  <datalist id="destinations">
+  <option value="Airport">
+  <option value="Beach">
+  <option value="Fred Flinstone's House">
+  </datalist>
+  </p>
+  
+  <p>
+  <label>Special Instructions
+  <textarea name="comments" maxlength="500"></textarea>
+  </label>
+  </p>
+  
+  <p><button>Submit Booking</button></p>
+  
+  </form>
+<!-- about section ends -->
+
+
+<!-- Contact section Starts -->
 <section class="contact" id="contact">
 
     <h1 class="heading"> <span>contact</span> us </h1>
@@ -82,5 +273,57 @@
     </div>
   </div>
 </section>
+<!-- Contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-chevron-right"></i> home </a>
+            <a href="#services"> <i class="fas fa-chevron-right"></i> services </a>
+            <a href="#about"> <i class="fas fa-chevron-right"></i> about </a>
+            
+        </div>
+
+        <div class="box">
+            <h3>our services</h3>
+            <a href="#.html"> <i class="fas fa-chevron-right"></i> 3D Neon Design </a>
+            <a href="#.html"> <i class="fas fa-chevron-right"></i> Neon Design Info </a>
+            
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91-123456789 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91-123456789 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> hitesh@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> hitesh@outlook.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Punjab, india - 144004 </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+			<a href="http://facebook.com"> <i class="fab fa-facebook-f"></i> facebook </a>
+			<a href="http://twiter.com/home"> <i class="fab fa-twitter"></i> twitter </a>
+			<a href="http://instagram.com"> <i class="fab fa-instagram"></i> instagram </a>
+			<a href="http://linkedin.com"> <i class="fab fa-linkedin"></i> linkedin </a>
+			<a href="httl://pinterest.in"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- footer section ends -->
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script src="js/Slider.js"></script>
+
 </body>
 </html>
