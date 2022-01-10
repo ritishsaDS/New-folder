@@ -365,7 +365,7 @@ cursor: pointer;
 
 .abouts {
   width: 80%;
-  color: #000;
+
   margin: auto;
   margin-top: 100px;
 
@@ -375,7 +375,7 @@ cursor: pointer;
 
 .abouts .row{
   display: flex;
-  color: #000;
+ 
   align-items: center;
   flex-wrap: wrap;
   gap:4rem;
@@ -383,7 +383,7 @@ cursor: pointer;
 
 .abouts .row .image{
   flex:1 1 45rem;
-  color: #000;
+ 
 }
 
 .abouts .row .image img{
