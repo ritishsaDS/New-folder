@@ -428,6 +428,7 @@ color: rgb(12, 12, 12);
 
 .about .row .image{
   flex:1 1 1 45rem;
+  white-space: nowrap;
 }
 
 .about .row .image img{
