@@ -418,21 +418,20 @@ color: rgb(12, 12, 12);
 }
 
 
-.abouts .row{
-  display:grid;
- 
+.about .row{
+  display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap:4rem;
+  color: rgb(252, 250, 250);
 }
 
-.abouts .row .image{
+.about .row .image{
   flex:1 1 45rem;
- 
 }
 
-.abouts .row .image img{
-  width: 50%;
+.about .row .image img{
+  width: 100%;
 }
 
 .abouts .row .content{
