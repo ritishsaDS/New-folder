@@ -1232,8 +1232,8 @@ a:link, a {
     }
 
 .primary h2 {
-    font: 18px 'Source Sans Pro', Arial;
-    color: #205E75;
+    font: 24px 'Poppins', Arial;
+    color: #03475f;
     font-weight: 600;
     border-bottom: 1px solid #BDE2EA;
     margin-bottom: 3%;
@@ -1968,12 +1968,12 @@ a:link, a {
         color: #4D4d4d;
         height: 27px;
         background: #fef7e9;
-        background: -webkit-gradient(linear, left top, left bottom, from(#fdedce), to(#fef7e9));
-        background: -webkit-linear-gradient(top, #fdedce, #fef7e9);
-        background: -moz-linear-gradient(top, #fdedce, #fef7e9);
-        background: -ms-linear-gradient(top, #fdedce, #fef7e9);
-        background: -o-linear-gradient(top, #fdedce, #fef7e9);
-        background-image: -ms-linear-gradient(top, #fdedce 0%, #fef7e9 100%);
+        background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fef7e9));
+        background: -webkit-linear-gradient(top, #ffffff, #fef7e9);
+        background: -moz-linear-gradient(top, #ffffff, #fef7e9);
+        background: -ms-linear-gradient(top, #ffffff, #fef7e9);
+        background: -o-linear-gradient(top, #ffffff, #fef7e9);
+        background-image: -ms-linear-gradient(top, #ffffff 0%, #fef7e9 100%);
     }
 
     #right .add_2_cart p input[type="text"] {
@@ -2252,36 +2252,36 @@ img.jqzoom {
 .contact_tier_3 .text {
     width: 95%;
     float: left;
-    border: 1px solid #d3ae66;
-    border-radius: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
     line-height: 27px;
     padding-left: 2%;
     clear: both;
     color: #4D4d4d;
     height: 27px;
     background: #fef7e9;
-    background: -webkit-gradient(linear, left top, left bottom, from(#fdedce), to(#fef7e9));
-    background: -webkit-linear-gradient(top, #fdedce, #fef7e9);
-    background: -moz-linear-gradient(top, #fdedce, #fef7e9);
-    background: -ms-linear-gradient(top, #fdedce, #fef7e9);
-    background: -o-linear-gradient(top, #fdedce, #fef7e9);
-    background-image: -ms-linear-gradient(top, #fdedce 0%, #fef7e9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fef7e9));
+    background: -webkit-linear-gradient(top, #ffffff, #fef7e9);
+    background: -moz-linear-gradient(top, #ffffff, #fef7e9);
+    background: -ms-linear-gradient(top, #ffffff, #fef7e9);
+    background: -o-linear-gradient(top, #ffffff, #fef7e9);
+    background-image: -ms-linear-gradient(top, #ffffff 0%, #fef7e9 100%);
 }
 
 .contact_tier_3 textarea {
     height: 140px;
-    border: 1px solid #d3ae66;
-    border-radius: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
     width: 96%;
     padding: 0 1%;
     overflow: hidden;
     background: #faf9f9;
-    background: -webkit-gradient(linear, left top, left bottom, from(#fdedce), to(#fef7e9));
-    background: -webkit-linear-gradient(top, #fdedce, #fef7e9);
-    background: -moz-linear-gradient(top, #fdedce, #fef7e9);
-    background: -ms-linear-gradient(top, #fdedce, #fef7e9);
-    background: -o-linear-gradient(top, #fdedce, #fef7e9);
-    background-image: -ms-linear-gradient(top, #fdedce 0%, #fef7e9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fef7e9));
+    background: -webkit-linear-gradient(top, #ffffff, #fef7e9);
+    background: -moz-linear-gradient(top, #ffffff, #fef7e9);
+    background: -ms-linear-gradient(top, #ffffff, #fef7e9);
+    background: -o-linear-gradient(top, #ffffff, #fef7e9);
+    background-image: -ms-linear-gradient(top, #ffffff 0%, #fef7e9 100%);
 }
 
 .capture img {
@@ -2686,12 +2686,12 @@ table#cart_summary thead th.last_item {
     color: #4D4d4d;
     height: 27px;
     background: #fef7e9;
-    background: -webkit-gradient(linear, left top, left bottom, from(#fdedce), to(#fef7e9));
-    background: -webkit-linear-gradient(top, #fdedce, #fef7e9);
-    background: -moz-linear-gradient(top, #fdedce, #fef7e9);
-    background: -ms-linear-gradient(top, #fdedce, #fef7e9);
-    background: -o-linear-gradient(top, #fdedce, #fef7e9);
-    background-image: -ms-linear-gradient(top, #fdedce 0%, #fef7e9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fef7e9));
+    background: -webkit-linear-gradient(top, #ffffff, #fef7e9);
+    background: -moz-linear-gradient(top, #ffffff, #fef7e9);
+    background: -ms-linear-gradient(top, #ffffff, #fef7e9);
+    background: -o-linear-gradient(top, #ffffff, #fef7e9);
+    background-image: -ms-linear-gradient(top, #ffffff 0%, #fef7e9 100%);
 }
 
 #cart_summary .cart_quantity span {
@@ -2971,12 +2971,12 @@ table#cart_summary thead th.last_item {
         color: #4D4d4d;
         height: 27px;
         background: #fef7e9;
-        background: -webkit-gradient(linear, left top, left bottom, from(#fdedce), to(#fef7e9));
-        background: -webkit-linear-gradient(top, #fdedce, #fef7e9);
-        background: -moz-linear-gradient(top, #fdedce, #fef7e9);
-        background: -ms-linear-gradient(top, #fdedce, #fef7e9);
-        background: -o-linear-gradient(top, #fdedce, #fef7e9);
-        background-image: -ms-linear-gradient(top, #fdedce 0%, #fef7e9 100%);
+        background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fef7e9));
+        background: -webkit-linear-gradient(top, #ffffff, #fef7e9);
+        background: -moz-linear-gradient(top, #ffffff, #fef7e9);
+        background: -ms-linear-gradient(top, #ffffff, #fef7e9);
+        background: -o-linear-gradient(top, #ffffff, #fef7e9);
+        background-image: -ms-linear-gradient(top, #ffffff 0%, #fef7e9 100%);
     }
 
     .step_content .right p .small {
@@ -3893,7 +3893,7 @@ a.color:hover {
 
 
 #trPromocodeApply .text {
-    background: -moz-linear-gradient(center top, #fdedce, #fef7e9) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(center top, #ffffff, #fef7e9) repeat scroll 0 0 rgba(0, 0, 0, 0);
     border: 1px solid #d3ae66;
     border-radius: 10px;
     clear: both;

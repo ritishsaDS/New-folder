@@ -385,577 +385,116 @@
     </script>
 <meta id="keywordId" http-equiv="keywords" name="keywords" content="Create Your Own Neon Signs | Custom Neon signs" /><meta id="descriptionId" http-equiv="description" name="description" content="Create Your Own Neon Signs | Custom Neon signs. convert your art work to neon sign. Fill up our custom neon signs form we will make free neon sign design for you." /></head>
 <body>
-    <div id="tooltip1">
-    </div>
-    <div id="wrapper">
-        <div id="page">
-            <div id="overlay" style="display: none"></div>
-           
-            <!--End #header-->
-            <form method="post" action="./custom-neon-signs" id="form1">
-<div class="aspNetHidden">
-<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
-<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="UdH/pmkIhSjRBgLJS55/LHx3oZbj70XICHqk4g4gz89wjk/yukkFLDVmuJxjg3ovXIQnR3fMnFb+BW5UO+7nNDmwBzVeBqLHGG1CkUorFcKTOVb7ERSadJw6xjE+zvemrHe0tTiZ3m00HKRKTDjJTtb45AsjXZJVOpH3fBZRqPuKDiDpRc8swZJoWPn6lMU7zatrWLyhRzaRZIN1ozhLIIzE6N9zRiDgnux2Nwzh+f2Bri9zNtM3OklgibA5FGEt3fKL9HUMmXn0y38lSCXMrgmIYKNUTrc87fELLOlxQ2FMU65fp58OlpLOC7wJnIM9" />
-</div>
-
-<script type="text/javascript">
-//<![CDATA[
-var theForm = document.forms['form1'];
-if (!theForm) {
-    theForm = document.form1;
-}
-function __doPostBack(eventTarget, eventArgument) {
-    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-        theForm.__EVENTTARGET.value = eventTarget;
-        theForm.__EVENTARGUMENT.value = eventArgument;
-        theForm.submit();
-    }
-}
-//]]>
-</script>
-
-
-<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZK5Zv7fjZHGBt0Ce0bxzm9IxFFYXNsIuIa45ao2zGNZ4YqigXk5jiQHp8o4O8O8ZNQ2&amp;t=637346606097037378" type="text/javascript"></script>
-
-
-<script src="/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvv6kupWk1XmauP3LJZ1xn1gOzNUlFzbqNTqloERKt02_WZ5ZWw0n1rfWzh7dfIJiQ71qtwDXRgyogGm1d-uaYgphkBeEpvHwCRaMAMLINCRQDtWfd8dw3YJoRB9ioMPFTV7ebfzHq5UowJjOoLNimRQ1&amp;t=ffffffffdfc97409" type="text/javascript"></script>
-<script src="/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OAhlsU3sXVpK1jGeHsXL_ykWwQIcMqP08NGTwIKB7mmN1-x-VJBTiqIEoJTk0jLcjcRyy2lhzdN7hZUQZcI-blA-FL26Qvwb7MISesB9Xd6OoqO76nfzaUUIlRURHruIRI8rbX0Yvbjq0K5u8Lkdeug1&amp;t=ffffffffdfc97409" type="text/javascript"></script>
-<script src="../Service/CalcService.svc/js" type="text/javascript"></script>
-<div class="aspNetHidden">
-
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="71F1883E" />
-</div>
-                <script type="text/javascript">
-//<![CDATA[
-Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00$ctl00');
-//]]>
-</script>
-
-                <div id="main">
-                    
-   
-    <!--.side_bar-->
-    <div id="container">
+    <form id="contact" method="post">
+        <div class="container">
+          <div class="form-group row">
+            <div class="col-md-4">
+                <label><strong>Name</strong></label>
+              <input type="text" class="form-control" placeholder="Full Name" name="flname" required>
+            </div>
+            <div class="col-md-4">
+                <label><strong>Email</strong></label>
+              <input type="Email" class="form-control" placeholder="abcd@your.com" name="email" required>
+            </div>
+            <div class="col-md-4">
+                <label><strong>Phone</strong></label>
+              <input type="text" class="form-control" name="phone" placeholder="999-999-9999">
+            </div>
+          </div>
         
-        <header class="header">
-
-            <a href="#" class="img" img src="image/logo.png"> NeonSign.Com </a>
-          
-          
-            <nav class="navbar">
-              <a href="/index.html">home</a>
-              <a href="/OurService.html">services</a>
-              <a href="/OurService.html">about</a>
-              <a href="/contacts.html">Contact us</a>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label><strong>What do you want your sign to say?</strong></label>
+            <textarea class="form-control" name="signsay" rows="4" placeholder="Describe Your Text here" required></textarea>
+            </div>
+            <div class="form-group col-md-2">
+              <label><strong>Sign Type</strong></label>
+              <select id="inputState1" name="signtype" class="form-control">
+                <option value="Neon Signs">Neon Sign</option>
+                <option value="LED Sign">LED Sign</option>
+              </select>
+            </div>
+            <div class="col">
+                <label><strong>Neon Sign Size</strong></label>
+              <input type="text" class="form-control" name="size" placeholder="Width x Hight in inch" required>
+            </div>
+           
              
+            </div>
+            <div> 
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <label><strong>Select Sign Font</strong></label>
+              <select id="inputState2" class="form-control" name="font" required>
+            <option value="">Please Select</option>
+            <option value="Nara Script">Nara Script</option>
+                <option value="Pink Girl Script">Pink Girl Script</option>
+                <option value="Deluxe Script">Deluxe Script</option>
+                <option value="Bsig Script">Bsig Script</option>
+                <option value="Hututu Script">Hututu Script</option>
+                <option value="Breeze Script">Breeze Script</option>
+                <option value="Perfect Script">Perfect Script</option>
+                <option value="Family Block Cap">Family Block Cap</option>
+                <option value="Arial Basic">Arial Basic</option>
+                <option value="Pro Thin Block">Pro Thin Block</option>
+                <option value="Block Starch Cap">Block Starch Cap</option>
+                <option value="BPreplay">BPreplay</option>
+                <option value="Pseudo">Pseudo</option>
+                <option value="Courier">Courier</option>
+                <option value="Lodeon Serif">Lodeon Serif</option>
+                <option value="Speedball No 2 NF">Speedball No 2 NF</option>
+                <option value="Speedball No1 NF">Speedball No1 NF</option>
+                <option value="Architect">Architect</option>
+              </select>
+            </div>
+        
+            <div><img src="img/font-image.jpg" class="img-responsive" alt="Font Image"></div>
+        
               
-          </nav>
-          
-              <div id="menu-btn" class="fas fa-bars"></div>
-          
-          </header>
-    <div class="primary" id="customNeonForm">
-        <h1 class="title_module"><span>custom request form</span></h1>
-        <div class="content" id="content_contacts">
-            <div class="contact_tier contact_tier_1">
-               
-                <p style="color: #FFF; text-align: justify;">Custom neon sign</p>
-                <hr style="margin-top: 10px; margin-bottom: 10px;">
-                <p>
-                </p>
-                <ul style="color: #FFF; list-style: inside; display: block;">
-                    <p>Step by step process of custom neon sign from order to delivery… </p>
-                    <li>Fill up our custom neon signs form.</li>
-                    <li>Our experience graphic designer provides you unique proof how looks your neon signs. (Please upload your business logo and artwork if you want included in neon signs)</li>
-                    <li>Approve and place an order</li>
-                    <li>Manufacturing process and shipment (Our experience blender will doing great job and provide high quality neon signs)</li>
-                </ul>
-
-                <p></p>
-
             </div>
-            <div class="contact_tier_3 contact_tier">
-                <h2>Sign information</h2>
-                
-                <p style="font-weight: bold;">
-                    <label>Sign Type</label>
-                </p>
-                <p>
-                    <select class="selectBox customForm" id="signType" style="display: none;">
-                        <option value="" selected="selected">Please Select</option>
-                        <option value="Neon">Neon</option>
-                        <option value="LED">LED</option>
-                        <option value="Neon and LED">Neon and LED</option>
-                    </select>
-                </p>
-                <p></p>
-
-                <p style="font-weight: bold;">
-                    <label>What size would you like your sign to be?</label>
-                </p>
-                <p>
-                    <select name="signSize" class="customForm selectBox" id="signSize" style="width: 190px; display: none;">
-                        <option value="" id="signSize1" selected="selected">Please Select</option>
-                        <option value="13x32" id="signSize2">13 x 32 (Inches)</option>
-                        <option value="24x24" id="signSize3">24 x 24 (Inches)</option>
-                        <option value="24x31" id="signSize4">24 x 31 (Inches)</option>
-                        <option value="20x37" id="signSize5">20 x 37 (Inches)</option>
-                        <option value="custom" id="Custom_Size">Custom Size</option>
-                    </select>
-                </p>
-                <p></p>
-                <p style="width: 100%; color: #FFF; font-weight: bold;">
-                    What would you like your sign say?
-                </p>
-                <p style="width: 28%; font-weight: bold;">
-                    <label>Line 1</label>
-                    <span class="span_text">
-                        <input type="text" id="Line1" name="name" class="text customForm">
-                    </span>
-                </p>
-
-                <p style="width: 28%; font-weight: bold;">
-                    <label>Line 2</label>
-                    <span class="span_text">
-                        <input type="text" id="Line2" name="name" class="text customForm">
-                    </span>
-                </p>
-                <p style="width: 28%; font-weight: bold;">
-                    <label>Line 3</label>
-                    <span class="span_text">
-                        <input type="text" id="Line3" name="name" class="text customForm">
-                    </span>
-                </p>
-
-                <p style="width: 100%; color: #FFF; padding-top: 10px; padding-bottom: 10px; font-weight: bold;">
-                    Please select the colors that you would like us to use in your sign
-                </p>
-                <p style="width: 100%; text-align: center;">
-                    <img src="image/color-f.png" alt="">
-                </p>
-
-                <div style="width: 50px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #F00;">Red</label>
-                    <input type="checkbox" name="color[]" value="Red" id="colorRed" class="customForm" onclick="getCheckBoxValue(this)">
-                </div>
-                <div style="width: 50px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #FF0;">Yellow</label>
-                    <input type="checkbox" name="color[]" value="Yellow" id="colorYellow" onclick="getCheckBoxValue(this)">
-                </div>
-                <div style="width: 50px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #9600FF;">Purple</label>
-                    <input type="checkbox" name="color[]" value="Purple" onclick="getCheckBoxValue(this)" id="colorPurple">
-                </div>
-                <div style="width: 50px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #FFF;">White</label>
-                    <input type="checkbox" name="color[]" value="White" onclick="getCheckBoxValue(this)" id="colorWhite">
-                </div>
-                <div style="width: 50px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #00FF00;">Green</label>
-                    <input type="checkbox" name="color[]" value="Green" onclick="getCheckBoxValue(this)" id="colorGreen">
-                </div>
-                <div style="width: 50px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #0066FF;">Blue</label>
-                    <input type="checkbox" name="color[]" value="Blue" onclick="getCheckBoxValue(this)" id="colorBlue">
-                </div>
-                <div style="width: 55px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #FF9600;">Orange</label>
-                    <input type="checkbox" name="color[]" value="Orange" onclick="getCheckBoxValue(this)" id="colorOrange">
-                </div>
-                <div style="width: 70px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #00FFFF;">Turquoise</label>
-                    <input type="checkbox" name="color[]" value="Turquoise" onclick="getCheckBoxValue(this)" id="colorTarquoise">
-                </div>
-                <div style="width: 50px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #FF00FF;">Pink</label>
-                    <input type="checkbox" name="color[]" value="Pink" onclick="getCheckBoxValue(this)" id="colorPink">
-                </div>
-                <div style="width: 87px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #00CC33;">Veep Green</label>
-                    <input type="checkbox" name="color[]" value="Veep Green," onclick="getCheckBoxValue(this)" id="colorVeepGreen">
-                </div>
-                <div style="width: 66px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #1764F0;">Rich Blue</label>
-                    <input type="checkbox" name="color[]" value="Rich Blue," onclick="getCheckBoxValue(this)" id="colorRichBlue">
-                </div>
-                <div style="width: 70px; float: left; text-align: center; margin-bottom: 10px; font-weight: bold;">
-                    <label style="width: 100%; color: #2452E6;">Neon Blue</label>
-                    <input type="checkbox" name="color[]" value="Neon Blue," onclick="getCheckBoxValue(this)" id="colorNeonBlue">
-                </div>
-
-                <div style="height: 20px; clear: both;"></div>
-                <p style="font-weight: bold;">
-                    <label>What Font would you like?</label>
-                </p>
-                <select>
-                    <option value="" selected="selected" style="width: 190px; display: none;">Please Select</option>
-                    <option value="Bauhaus">Bauhaus</option>
-                    <option value="Balloon">Balloon</option>
-                    <option value="Architech">Architech</option>
-                    <option value="Belshaw">Belshaw</option>
-                    <option value="BPreplay">BPreplay</option>
-                    <option value="Courier_10">Courier 10</option>
-                    <option value="Eoroference">Eoroference</option>
-                    <option value="Font_Shui">Font Shui</option>
-                    <option value="Learning_Curve">Learning Curve</option>
-                    <option value="Monofur">Monofur</option>
-                    <option value="Noodle_Script">Noodle Script</option>
-                    <option value="Pseudo">Pseudo</option>
-                    <option value="Harlow">Harlow</option>
-                    <option value="Arial">Arial</option>
-                    <option value="Arial_Narrow">Arial Narrow</option>
-                    <option value="Arial_Rounded">Arial Rounded</option>
-                    <option value="LED_Ariel">LED - Ariel</option>
-                    <option value="LED_Script">LED - Script</option>
-                    </select>
-                <p style="width: 96%; margin-top: 10px; margin-bottom: 10px; border: double #666;">
-                    <img src="images/CustomForm/text-famaly.png" alt="">
-                </p>
-
-                <p style="font-weight: bold;">
-                    <label>Do you want a border?</label>
-                </p>
-                <p>
-                    <select name="Border" id="Border" style="width: 190px; display: none;" class="customForm selectBox">
-                        <option value="" selected="selected">Please Select</option>
-                        <option value="No_Border">No Border</option>
-                        <option value="Border">Border</option>
-                        <option value="Let_me_see_it_both_ways">Let me see it both ways.</option>
-                    </select>
-                </p>
-                <p style="width: 95%; margin-top: 10px; margin-bottom: 10px; border: double #666; padding: 5px; height: 52px;">
-                    <img src="image/border-yn.png" alt="">
-                </p>
-                <p></p>
-
-                <p style="font-weight: bold;">
-                    <label>Do you want your sign to flash?</label>
-                </p>
-                <p>
-                    <select name="isFlashing" id="isFlashing" style="width: 190px; display: none;" class="selectBox customForm">
-                        <option value="" selected="selected">Please Select</option>
-                        <option value="Yes_Text_Flashing">Yes (Text Flashing)</option>
-                        <option value="Yes_Border_Flashing">Yes (Border Flashing)</option>
-                        <option value="Yes_Both_Flashing">Yes (Both Flashing)</option>
-                        <option value="No">No</option>
-                        <option value="Let_me_see_it_both_ways">Let me see it both ways.</option>
-                    </select>
-                </p>
-                <p></p>
-                <p style="width: 95%; margin-top: 10px; margin-bottom: 10px; border: double #666; padding: 5px; height: 52px;">
-                    <img src="image/flash-op-form.gif" alt="">
-                </p>
-                <div style="clear: both;"></div>
-                <p style="width: 100%; color: #FFF; font-weight: bold;">
-                    <label>Special Instructions</label>
-                    <span class="span_extarea">
-                        <textarea name="enquiry" id="instruction" class="customForm"></textarea>
-                    </span>
-                </p>
-                <p style="font-weight: bold;">
-                    <label>Logo/Design/Idea/Image upload here</label>
-                </p>
-                <p>
-                    <input type="file" name="browse" id="custImg" class="selectBox-dropdown customForm">
-                    <output id="outLogo"></output>
-                </p>
-                <div style="height: 20px; clear: both;"></div>
-                <h2>Contact information</h2>
-                <p style="width: 28%; font-weight: bold;">
-                    <label>*Name</label>
-                    <span class="span_text">
-                        <input type="text" id="contactName" name="name" class="text customForm" required="required">
-                    </span>
-                </p>
-                <p style="width: 28%; font-weight: bold;">
-                    <label>*Email</label>
-                    <span class="span_text">
-                        <input type="text" id="Email" name="name" class="text customForm" required="required">
-                    </span>
-                </p>
-                <p style="width: 28%; font-weight: bold;">
-                    <label>*Phone</label>
-                    <span class="span_text">
-                        <input type="text" value="" id="Phone" name="name" class="text customForm" required="required">
-                    </span>
-                </p>
-                <p class="capture" style="font-weight: bold; font-size: 12px; width: 100%">
-                    <label>Enter the code in the box</label>
-                    <span class="span_text" style="width: 50%">
-                        <input class="text customForm" id="sec_code" type="text" name="security_code" style="width: 15%;" required="required" />
-                    </span>
-                    <span style="width: 50%">
-                        <img id="ContentPlaceHolder1_SubContentPlaceHolder_imgCaptcha" class="img-responsive" src="GenerateCaptcha.aspx?637780979981650077" />
-                    </span>
-                </p>
-                <p class="submit marginTOP15">
-                    <input type="button" name="submit" class="medium_button" value="Submit" />
-                </p>
-                
             </div>
+        
+        <div class="form-row">
+            <div class="form-group col-md-3">
+              <label><strong>Select color for your Sign</strong></label>
+              <select id="inputState3" name="color1" class="form-control">
+                  <option>Please Select</option>
+                <option value="Red">Red</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Purple">Purple</option>
+                <option value="White">White</option>
+                <option value="Green">Green</option>
+                <option value="Orange">Orange</option>
+                <option value="Pink">Pink</option>
+                <option value="Turquoise">Turquoise</option>
+                <option value="Blue">Blue</option>
+              </select>
+            </div>
+        
+            <div><img src="img/Color.jpg" class="img-responsive" alt="Font Image"></div>
+        
+              
+            </div>
+        
+        <div class="form-group col-md-15">
+              <label><strong>Special Instructions</strong></label>
+            <textarea class="form-control" name="special" rows="4"></textarea>
+            </div>
+        
+        <div class="form-group">
+        
+          <div class="custom-file">
+        
+            <input type="file" class="custom-file-input" name="attachment" id="validatedCustomFile">
+            <label class="custom-file-label" for="validatedCustomFile">Upload Logo/Idea/Artwork here...</label>
+          </div>
+        
+          </div>
         </div>
-    </div>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#custImg").change(function (e) {
-                getBase64(e)
-            });
-        });
-
-        function getBase64(event) {
-            var files = event.target.files; // FileList object
-            // Loop through the FileList and render image files as thumbnails.
-            for (var i = 0, f; f = files[i]; i++) {
-                // Only process image files.
-                if (!f.type.match('image.*')) {
-                    continue;
-                }
-                var reader = new FileReader();
-                // Closure to capture the file information.
-                reader.onload = (function (theFile) {
-                    return function (e) {
-                        if ($('#siteLogo').length == 0) {
-                            // Render thumbnail.
-                            var span = document.createElement('span');
-                            span.innerHTML = ['<img class="thumb customForm maxWidth" id="siteLogo"  src="', e.target.result,
-                                              '" title="', theFile.name, '"/>'].join('');
-                            document.getElementById('outLogo').insertBefore(span, null);
-                        }
-                        else {
-                            $('.customForm').attr('src', e.target.result);
-                            $('.customForm').attr('title', escape(theFile.name));
-                        }
-                    };
-                })(f);
-                // Read in the image file as a data URL.
-                reader.readAsDataURL(f);
-            }
-        }
-
-        function SaveCustomFormData(event) {
-            $('#dvLoading').show();
-            if ($('#sec_code').val().toLowerCase() != $('#hdnCaptcha').val().toLowerCase()) {
-                GetError("Captcha is not correct");
-                event.preventDefault();
-                $('#dvLoading').hide();
-                return;
-            }
-            else if ($('#contactName').val() == "") {
-                GetError("Enter conatct name");
-                event.preventDefault();
-                $('#dvLoading').hide();
-                return;
-            }
-            else if ($('#Email').val() == "") {
-                GetError("enter email address");
-                $('#dvLoading').hide();
-                event.preventDefault();
-                return;
-            }
-            else if ($('#Phone').val() == "") {
-                GetError("enter phone number");
-                $('#dvLoading').hide();
-                event.preventDefault();
-                return;
-            }
-            var formData = $('.customForm');
-            var custData = [];
-            for (var i = 0; i < formData.length; i++) {
-                if (formData[i].id != 'custImg') {
-                    custData.push(formData[i].id + "," + formData[i].value);
-                }
-                else {
-                    custData.push(formData[i].id + "," + formData[i].src + "," + formData[i].title);
-                }
-            }
-
-            CalcService.saveCustomFormData(custData, color, $('#siteLogo').attr('src'), $('#siteLogo').attr('title'), onCustDataAddSuccess, onCustDataAddFail)
-        }
-        function onCustDataAddSuccess(jsonResult) {
-            if (jsonResult != undefined && jsonResult != "") {
-                $('#dvLoading').hide();
-                GetError(jsonResult);
-            }
-            else {
-                $('#dvLoading').hide();
-                GetError("Contact to system admin");
-
-            }
-        }
-        function onCustDataAddFail(jsonResult) {
-            if (jsonResult != undefined && jsonResult != "") {
-                $('#dvLoading').hide();
-                GetError(jsonResult);
-            }
-            else {
-                $('#dvLoading').hide();
-                GetError("Contact to system admin");
-            }
-        }
-
-
-        var color = [];
-        function getCheckBoxValue(chkbx) {
-            if (chkbx.id == "colorRed") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    //color.pop(chkbx.value);
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-            if (chkbx.id == "colorYellow") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-
-            if (chkbx.id == "colorPink") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-
-            if (chkbx.id == "colorVeepGreen") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-
-            if (chkbx.id == "colorRichBlue") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-
-            if (chkbx.id == "colorNeonBlue") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-
-            if (chkbx.id == "colorPurple") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-
-            if (chkbx.id == "colorWhite") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-
-            if (chkbx.id == "colorGreen") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-
-            if (chkbx.id == "colorBlue") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-
-            if (chkbx.id == "colorOrange") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-
-            if (chkbx.id == "colorTarquoise") {
-                if (chkbx.checked == true) {
-                    color.push(chkbx.value);
-                }
-                else {
-                    var i = color.indexOf(chkbx.value);
-                    if (i != -1) {
-                        color.splice(i, 1);
-                    }
-                }
-            }
-
-        }
-    </script>
-
-    </div>
-
-                </div>
-            </form>
-            <div class="clear"></div>
-        </div>
-        <!--End #page-->
-        <div class="clear"></div>
-    </div>
-    <!--End #wrapper-->
-   
-    <!--End #footer-->
+        <div class="text-center mb-5 col-md-12">
+                        <input type="submit" class="btn btn-primary btn-lg text-white btn-outline-dark btn-send" name="submit" value="Click To Submit Design Request">
+                    </div>
+        </form>
 </body>
 </html>
 
