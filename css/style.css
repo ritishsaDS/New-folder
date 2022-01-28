@@ -85,7 +85,7 @@ section:nth-child(even){
 
 .header{
     width: 100%;
-    padding:2rem 9%;
+    padding:1rem 9%;
     margin: 22px;
     z-index: 1000;
     
@@ -99,7 +99,7 @@ section:nth-child(even){
 
 
 .header .img{
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: var(--black);
 }
 
@@ -115,7 +115,7 @@ section:nth-child(even){
 
 
 .header .navbar a{
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: var(--light-color);
     margin-left: 2rem;
 }
