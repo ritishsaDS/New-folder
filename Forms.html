@@ -1,293 +1,298 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    
-        <title>My Beer Neon Signs</title>
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Mechanical designer - Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+    <!-- font awesome cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+
+    <link rel="stylesheet" href="asset/css/style.css">
+
+</head>
+<body class="bgblack">
+    
+<!-- header section starts  -->
+
+<section class="section_header">
+  <div class="container">
+<div class="row">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NeonSign.Com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="outservice.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="outservice.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+</div>
+  </div>
+</section>
+
+
+
+<!-- header section ends -->
+
+
+<!-- services section starts  -->
+
+<section class="section_form section_gallery_page_margin bgblack" id="gallery">
+  <div class="container bgwhite p-lg-5 p-md-3 p-2 border-radius-20">
+    <div class="row">
+      <div class="col-12">
+        <p class="m-0">Welcome To Our My Beer Neon Signs
+          Custom Neon And LED Signs</p>
+          <p>Please Fill Free Our Below Form For Custom Neon Sign Request.</p>
+        <form>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-3">
+              <label>Name</label>
+              <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-3">
+              <label>Email</label>
+              <input type="email" class="form-control" placeholder="abcd@your.com" aria-label="Mail">
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-3">
+              <label>Phone</label>
+              <input type="phone" class="form-control" placeholder="999-999-9999" aria-label="Phone">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="form-group mt-4">
+                <label>Sign Type</label>
+                <select class="form-select" aria-label="sign_type">
+                  <option value="led_sign">LED Sign</option>
+                  <option value="neon_sign">Neon Sign</option>
+                </select>
+              </div>
+              <div class="form-group mt-4">
+                <label>  Neon Sign Size</label>
+                <input type="text" class="form-control" placeholder="Width X Height In Inch" aria-label="Sign Size">
+              </div>
+              <div class="form-group mt-4">
+                <label>Select Sign Font</label>
+                <select id="inputState" class="form-control">	
+                  <option>Nara Script</option>
+                  <option>Pink Girl Script</option>
+                  <option>Deluxe Script</option>
+                  <option>Bsig Script</option>
+                  <option>Hututu Script</option>
+                  <option>Breeze Script</option>
+                  <option>Perfect Script</option>
+                  <option>Family Block Cap</option>
+                  <option>Arial Basic</option>
+                  <option>Pro Thin Block</option>
+                  <option>Block Starch Cap</option>
+                  <option>BPreplay</option>
+                  <option>Pseudo</option>
+                  <option>Courier</option>
+                  <option>Lodeon Serif</option>
+                  <option>Speedball No 2 NF</option>
+                  <option>Speedball No1 NF</option>
+                  <option>Architect</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="form-group mt-4">
+                <label>What Would You Like Your Sign Say?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="sign-img-block">
+            <img src="/asset/img/img/font-image.jpg">
+          </div>
+
+          <div class="row mt-3">
+            <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-3">
+              <label>Select Color For Your Sign</label>
+              <select id="inputState" class="form-control">	
+                <option>Red</option>
+                <option>Yellow</option>
+                <option>Purple</option>
+                <option>White</option>
+                <option>Green</option>
+                <option>Orange</option>
+                <option>Pink</option>
+                <option>Turquoise</option>
+                <option>Blue</option>
+              </select>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-3">
+              <label>Select Color For Your Sign</label>
+              <select id="inputState" class="form-control">	
+                <option>Red</option>
+                <option>Yellow</option>
+                <option>Purple</option>
+                <option>White</option>
+                <option>Green</option>
+                <option>Orange</option>
+                <option>Pink</option>
+                <option>Turquoise</option>
+                <option>Blue</option>
+              </select>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-3">
+              <label>Select Color For Your Sign</label>
+              <select id="inputState" class="form-control">	
+                <option>Red</option>
+                <option>Yellow</option>
+                <option>Purple</option>
+                <option>White</option>
+                <option>Green</option>
+                <option>Orange</option>
+                <option>Pink</option>
+                <option>Turquoise</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="sign-img-block">
+            <img src="/asset/img//img/Color.jpg">
+          </div>
+
+          <div class="row mt-3">
+            <div class="col-12 mt-lg-0 mt-3">
+              <div class="form-group mt-4">
+                <label>Special Instructions</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+              </div>
+
+              <div class="form-group mt-4">
+                
+  <input class="form-control" type="file" id="formFile">
+  <label for="formFile" class="form-label">Upload Logo/Idea/Artwork Here</label>
+            </div>
+           
+          </div>
+          </div>
+
+          <div class="text-center btn-submit">
+            <button type="submit" class="btn btn-primary mt-3 text-center">Click To Submit Design Request</button>
+          </div>
+          
+        </form>
+      </div>
      
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mechanical designer </title>
-    
-        <!-- font awesome cdn link  -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
-        <!-- custom css file link  -->
-        <link rel="stylesheet" href="css/style.css">
-    
-    
-     
+      
+    </div>
+  </div>  
+</section>
 
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><meta name="p:domain_verify" content="5b38fedab9e2ab40fa2c8a815cb0edf6" /><meta name="google-site-verification" content="HXcm9Kzv7oc8xDg8ZV53qNKvTgdX5191bO8HO3E2yjA" /><title>
-	Custom Neon Signs BY Shinyneonsigns.com
-</title><link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.23.custom.css" media="screen, print" /><link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" /><link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Gochi+Hand" /><link rel="stylesheet" type="text/css" href="css/style2.css" media="screen, print" /><link rel="stylesheet" href="droid-sans/stylesheet.css" type="text/css" /><link rel="stylesheet" type="text/css" href="oswald/stylesheet.css" /><link id="stylesheet479" rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (max-width: 479px)" /><link id="stylesheet767" rel="stylesheet" type="text/css" href="css/wide_mobile.css" media="only screen and (min-width: 480px) and (max-width: 767px)" /><link id="stylesheet991" rel="stylesheet" type="text/css" href="css/tablet.css" media="only screen and (min-width: 768px) and (max-width: 991px)" /><link id="stylesheet992" rel="stylesheet" type="text/css" href="css/wide.css" media="only all and (min-width: 992px)" /><link rel="stylesheet" type="text/css" href="css/thickbox.css" /><link rel="stylesheet" type="text/css" href="css/jquery.selectBox.css" /><link rel="stylesheet" type="text/css" href="js/jcarousel/horizontal.css" /><link rel="stylesheet" type="text/css" href="css/jquery.jqzoom.css" /><link href="css/fancyBox/jquery.fancybox.css" rel="stylesheet" />
-    
+<!-- services section ends -->
 
-    
-   
-    
-    <!--Start of Zopim Live Chat Script-->
 
-    <!--End of Zopim Live Chat Script-->
-    <link href="/css/style2.css" rel="stylesheet" />
-    <!--[if lt IE 9]>
-	<script src="js/css-media-query-ie.js" type="text/javascript"></script>
-	<![endif]-->
-    <!--[if IE 8]>
-	<link rel="stylesheet" type="text/css" href="css/ie8.css" />
-	<![endif]-->
-    <!--[if IE 7]>
-	<link rel="stylesheet" type="text/css" href="css/ie8.css" />
-	<![endif]-->
-    
-  
-    <!--End of Zopim Live Chat Script-->
-   
-<meta id="keywordId" http-equiv="keywords" name="keywords" content="Create Your Own Neon Signs | Custom Neon signs" /><meta id="descriptionId" http-equiv="description" name="description" content="Create Your Own Neon Signs | Custom Neon signs. convert your art work to neon sign. Fill up our custom neon signs form we will make free neon sign design for you." /></head>
-<body>
-  <header class="header">
+<!-- footer section starts  -->
 
-    <a href="#" class="img" img src="image/logo.png"> NeonSign.Com </a>
-  
-  
-        <nav class="navbar">
-          <a href="/index.html">home</a>
-          <a href="/OurService.html">services</a>
-          <a href="/OurService.html">about</a>
-          <a href="/contacts.html">Contact us</a>
+
+<section class="section_footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-6">
+        <div class="box">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home"> <i class="fas fa-chevron-right"></i> home </a></li>
+            <li><a href="#services"> <i class="fas fa-chevron-right"></i> services </a></li>
+            <li> <a href="#about"> <i class="fas fa-chevron-right"></i> about </a></li>
+          </ul>
+
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-6">
+        <div class="box">
+          <h3>Our Services</h3>
+          <ul>
+            <li><a href="#.html"> <i class="fas fa-chevron-right"></i> 3D Neon Design </a></li>
+            <li> <a href="#.html"> <i class="fas fa-chevron-right"></i> Neon Design Info </a></li>
+           
+          </ul>
+          
          
           
-      </nav>
-  
-      <div id="menu-btn" class="fas fa-bars"></div>
-  
-  </header>
-   
-      
-    <div class="container text-center text-primary hearderset">
-
-        <h2 >Welcome To Our My Beer Neon Signs</h2>
-        <h1>Custom Neon and LED Signs</h1>
-        <p> Please fill free our below form for custom neon sign request. </p>
-    
-    </div>
-    
-    <!-- container 2 -->
-    
-    </div>
-    
-    <!-- container 3 Form-->
-    
-    <form id="contact-form" method="post" action="<?= $_SERVER['PHP_SELF']; ?>" >
-    
-    <div class="container">
-      <div class="form-group row">
-        <div class="col">
-            <label for="formGroupExampleInput"style="color: rgb(255, 255, 255)">Name</label>
-          <input type="text"  class="form-control" placeholder="Full Name">
-        </div>
-        <div class="col">
-            <label for="formGroupExampleInput"style="color: rgb(255, 255, 255)">Email</label>
-          <input type="Email" class="form-control" placeholder="abcd@your.com" required="">
-        </div>
-        <div class="col">
-            <label for="formGroupExampleInput"style="color: rgb(255, 255, 255)">Phone</label>
-          <input type="Phone" class="form-control" placeholder="999-999-9999">
-        </div>
       </div>
-    
-    <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="exampleFormControlTextarea1"style="color: rgb(255, 255, 255)">What would you like your sign say?</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-        </div>
-        <div class="form-group col-md-2">
-          <label for="formGroupExampleInput"style="color: rgb(255, 255, 255)">Sign Type</label>
-          <select id="inputState" class="form-control">	
-            <option>Neon Sign</option>
-            <option>LED Sign</option>
-          </select>
-        </div>
-        <div class="col">
-            <label for="formGroupExampleInput"style="color: rgb(255, 255, 255)">Neon Sign Size</label>
-          <input type="text" class="form-control" placeholder="Width x Hight in inch">
-        </div>
-          </select>
-        </div>
-    
-       
-      <div class="form-row">
-        <div class="form-group col-md-3">
-          <label for="formGroupExampleInput"style="color: rgb(255, 255, 255)">Select Sign Font</label>
-          <select id="inputState" class="form-control">	
-            <option>Nara Script</option>
-            <option>Pink Girl Script</option>
-            <option>Deluxe Script</option>
-            <option>Bsig Script</option>
-            <option>Hututu Script</option>
-            <option>Breeze Script</option>
-            <option>Perfect Script</option>
-            <option>Family Block Cap</option>
-            <option>Arial Basic</option>
-            <option>Pro Thin Block</option>
-            <option>Block Starch Cap</option>
-            <option>BPreplay</option>
-            <option>Pseudo</option>
-            <option>Courier</option>
-            <option>Lodeon Serif</option>
-            <option>Speedball No 2 NF</option>
-            <option>Speedball No1 NF</option>
-            <option>Architect</option>
-          </select>
-        </div>
-    
-        <div><img src="image/img/font-image.jpg" class="img-responsive" alt="Font Image"></div>
-    
-          </select>
-        </div>
-    
-    <div class="form-row">
-        <div class="form-group col-md-3">
-          <label for="formGroupExampleInput"style="color: rgb(255, 255, 255)">Select color for your Sign</label>
-          <select id="inputState" class="form-control">	
-            <option>Red</option>
-            <option>Yellow</option>
-            <option>Purple</option>
-            <option>White</option>
-            <option>Green</option>
-            <option>Orange</option>
-            <option>Pink</option>
-            <option>Turquoise</option>
-            <option>Blue</option>
-          </select>
-        </div>
-    
-        <div class="form-group col-md-3">
-          <label for="formGroupExampleInput"style="color: rgb(255, 255, 255)">Select color for your Sign</label>
-          <select id="inputState" class="form-control">	
-            <option>Red</option>
-            <option>Yellow</option>
-            <option>Purple</option>
-            <option>White</option>
-            <option>Green</option>
-            <option>Orange</option>
-            <option>Pink</option>
-            <option>Turquoise</option>
-            <option>Blue</option>
-          </select>
-        </div>
-    
-        <div class="form-group col-md-3">
-          <label for="formGroupExampleInput"style="color: rgb(255, 255, 255)">Select color for your Sign</label>
-          <select id="inputState" class="form-control">	
-            <option>Red</option>
-            <option>Yellow</option>
-            <option>Purple</option>
-            <option>White</option>
-            <option>Green</option>
-            <option>Orange</option>
-            <option>Pink</option>
-            <option>Turquoise</option>
-            <option>Blue</option>
-          </select>
-        </div>
-    
-        <div><img src="image/img/Color.jpg" class="img-responsive" alt="Font Image"></div>
-    
-          </select>
-        </div>
-    
-    <div class="form-group col-md-15">
-          <label for="formGroupExampleInput"style="color: rgb(255, 255, 255)">Special Instructions</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-        </div>
-    
-    <div class="form-group">
-    
-      <div class="custom-file">
-        <input type="file" class="custom-file-input" id="validatedCustomFile">
-        <label class="custom-file-label" for="validatedCustomFile"style="color: rgb(255, 255, 255)">Upload Logo/Idea/Artwork here...</label>
-        <label for="formGroupExampleInput"style="color: rgb(255, 255, 255)">Upload Logo/Idea/Artwork here</label>
       </div>
-    
-      </div>
-    </div>
-    <div class="text-center mb-5 col-md-12">
-        <input type="submit" class="btn btn-primary btn-lg text-black btn-outline-dark btn-send" name="submit" value="Click To Submit Design Request">
-    </div>
-    </form>
-    <div style="width: 80%;
-    margin: auto;
-    color:black;
-    margin-top: 100px;">
-            <div class="box-container">
-
-       
-
+      <div class="col-lg-3 col-md-3 col-6">
         <div class="box">
-            <h3 style=" font-size: 2.5rem;
-            color:rgb(252, 247, 247);
-            padding: 1rem 0;">our services</h3>
-            <div style=" display: block;
-            font-size: 1.5rem;
-            color:rgb(252, 247, 247);;
-            padding: 1rem 0;"><a href="#.html"> <i class="fas fa-chevron-right"></i> 3D Neon Design </a></div>
-            <div style=" display: block;
-            font-size: 1.5rem;
-            color:rgb(252, 247, 247);;
-            padding: 1rem 0;"><a href="#.html"> <i class="fas fa-chevron-right"></i> Neon Design Info </a></div>
-            
-        
-</div>
-        <div class="box">
-            <h3 style=" font-size: 2.5rem;
-            color:rgb(252, 247, 247);
-            padding: 1rem 0;">contact info</h3>
-            
-            <div  style=" display: block;
-            font-size: 1.5rem;
-            color:rgb(252, 247, 247);;
-            padding: 1rem 0;"> <a href="#"> <i class="fas fa-phone"></i> +91-123456789 </a>  </div>
+          <h3>Contact Info</h3>
+          <ul>
+            <li><a href="#"> <i class="fas fa-phone"></i> +91-123456789 </a></li>
+            <li> <a href="#"> <i class="fas fa-phone"></i> +91-123456789 </a></li>
+            <li> <a href="#"> <i class="fas fa-envelope"></i> hitesh@gmail.com </a></li>
+            <li> <a href="#"> <i class="fas fa-envelope"></i> hitesh@outlook.com </a></li>
            
-           <div  style=" display: block;
-           font-size: 1.5rem;
-           color:rgb(252, 247, 247);;
-           padding: 1rem 0;"><a href="#"> <i class="fas fa-phone"></i> +91-123456789 </a>
-                <div  style=" display: block;
-                font-size: 1.5rem;
-                color:rgb(252, 247, 247);;
-                padding: 1rem 0;"> <a href="#"> <i class="fas fa-envelope"></i> hitesh@gmail.com </a> </div>
-               <div  style=" display: block;
-               font-size: 1.5rem;
-               color:rgb(252, 247, 247);;
-               padding: 1rem 0;">  <a href="#"> <i class="fas fa-envelope"></i> hitesh@outlook.com </a> </div>
-          
-          
-        </div>
+          </ul>
 
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-6">
+        
         <div class="box">
-            <h3 style=" font-size: 2.5rem;
-            color:rgb(252, 247, 247);
-            padding: 1rem 0;">follow us</h3>
-			<a href="http://facebook.com"> <i class="fab fa-facebook-f"></i> facebook </a>
-			<a href="http://twiter.com/home"> <i class="fab fa-twitter"></i> twitter </a>
-			<a href="http://instagram.com"> <i class="fab fa-instagram"></i> instagram </a>
-			<a href="http://linkedin.com"> <i class="fab fa-linkedin"></i> linkedin </a>
-			<a href="httl://pinterest.in"> <i class="fab fa-pinterest"></i> pinterest </a>
-        </div>
-
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="http://facebook.com"> <i class="fab fa-facebook-f"></i> facebook </a></li>
+            <li> <a href="http://twiter.com/home"> <i class="fab fa-twitter"></i> twitter </a></li>
+            <li> <a href="http://instagram.com"> <i class="fab fa-instagram"></i> instagram </a></li>
+            <li> <a href="http://linkedin.com"> <i class="fab fa-linkedin"></i> linkedin </a></li>
+            <li> <a href="httl://pinterest.in"> <i class="fab fa-pinterest"></i> pinterest </a></li>
+           
+          </ul>
+   
+    
+    
+    
+      </div>
     </div>
-    </section>
-</body>
+  </div>
+</section>
 
+
+<!-- footer section ends -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script src="js/Slider.js"></script>
+
+</body>
 </html>

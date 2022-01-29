@@ -1,246 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-    .card {
-      float: left;
-  width: 25%;
-  margin:  20px 20px 20px 20px;
-  padding:  20px 20px 20px 20px;
-    border:darkgoldenrod;
-    gap: 4 rem;
-}
-
-.user-content p {
-    margin-top: 5px;
-    font-size: 12px
-}
-
-.ratings i {
-    color: blue
-}
-    .container {
-
-      border: 2px solid #ccc;
-      background-color: #eee;
-      border-radius: 5px;
-     
-      padding: 20px  ;
-      margin: 20px 60px 30px 40px;
-    }
-    
-    .container::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-    
-    .container img {
-      float: left;
-      margin-right: 20px;
-      border-radius: 50%;
-    }
-    
-    .container span {
-      font-size: 20px;
-      margin-right: 15px;
-    }
-    
-    @media (max-width: 500px) {
-      .container {
-          text-align: center;
-      }
-      .container img {
-          margin: auto;
-          float: none;
-          display: block;
-      }
-    }
-    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Mechanical designer </title>
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font awesome cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+    <link rel="stylesheet" href="asset/css/style.css">
+
+    <link rel="stylesheet" href="asset/other/slick.css">
 
 </head>
-<body bgcolor="black">
+<body class="bgblack">
     
 <!-- header section starts  -->
 
-<header class="header">
+<section class="section_header">
+  <div class="container">
+<div class="row">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NeonSign.Com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="outservice.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="outservice.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <a href="#" class="img" img src="image/logo.png"> NeonSign.Com </a>
-
-
-      <nav class="navbar">
-        <a href="/index.html">home</a>
-        <a href="/OurService.html">services</a>
-        <a href="/OurService.html">about</a>
-        <a href="/contacts.html">Contact us</a>
-       
-        
-    </nav>
-
-    <div id="menu-btn" class="fas fa-bars"></div>
-
-</header>
+  
+</div>
+  </div>
+</section>
 
 <!-- header section ends -->
 
+
+
+
 <!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="slider">
-        <div class="slide active">
+<section class="section_slider" id="home">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 p-0">
+      <div class="slider">
+        <div>
           <img src="image/sweethome.jfif" alt="">
-     
+             
+          </div>
+          <div>
+            <img src="image/2.jpeg" alt="">
+               
+            </div>
+            <div>
+              <img src="image/open.jpg" alt="">
+                 
+              </div>
+
+              <div>
+                <img src="image/4.jpeg" alt="">
+                   
+                </div>
+
+                <div>
+                  <img src="image/barber.jfif" alt="">
+                     
+                  </div>
         </div>
-        <div class="slide">
-          <img src="image/2.jpeg" alt="">
+
+        <div class="d-flex justify-content-center btn-sliders">
+          <button class="sld-prev"><i class="fas fa-chevron-left"></i></button>
+          <button class="sld-next"><i class="fas fa-chevron-right"></i></button>
         </div>
-		
-        <div class="slide">
-          <img src="image/open.jpg" alt="">
-        </div>
-		
-        <div class="slide">
-          <img src="image/4.jpeg" alt="">
-        </div>
-		
-        <div class="slide">
-          <img src="image/barber.jfif" alt="">
-        </div>
-		
-        <div class="navigation">
-          <i class="fas fa-chevron-left prev-btn"></i>
-          <i class="fas fa-chevron-right next-btn"></i>
-        </div>
-		
-     </div>
+    </div>
+  </div>
+</div>
+ 
 
 </section>
 
 <!-- home section ends -->
 
 
+<section class="section_services" id="services">
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-6 col-12">
+        <div class="card card-body justify-content-center align-items-center">
+          <h1 class="heading">  <span>Our Services</span> </h1>
+          <h3>Made Your own Neon Design</h3>
+          <p>All Types of 3d Neon Design</p>
+          <a href="/Gallery.html" class="btn">  VIEW ALL <i class="fas fa-chevron-right"></i></a>
+        </div>
+        
+      </div>
+     
+     
+      
+    </div>
+  </div>  
+</section>
+
 
 <!-- services section starts  -->
 
-<section class="services" id="services">
-
-    <h1 class="heading">  <span>our services</span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-          
-            <h3>Made Your own Neon Design</h3>
-            <p>All Types of 3d Neon Design</p>
-            <a href="Forms.html" class="btn">  more <span class="fas fa-chevron-right"></span> </a>
+<section class="section_gallery" id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center">
+          <h1 class="heading">Our Gallery</h1>
+          <a href="/Gallery.html" class="btn">  VIEW ALL <i class="fas fa-chevron-right"></i></a>
         </div>
-
+        
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="gall_img">
+          <img src="image/5.jpeg" alt="Snow" >
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="gall_img">
+        <img src="image/live.jpg" alt="Forest" >
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="gall_img">
+        <img src="image/sweethome.jfif" alt="Forest" >
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="gall_img">
+        <img src="image/4.jpeg" alt="Snow" >
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="gall_img">
+        <img src="image/live.jpg" alt="Forest" >
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="gall_img">
+        <img src="image/sweethome.jfif" alt="Forest" >
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="gall_img">
+        <img src="image/sweethome.jfif" alt="Forest" >
+      </div>
+      </div>
       
-        
-
-        
-
     </div>
-
-</section>
-<section class="abouts" id="aboust">
-
-  <h1 class="heading"> <span>Our Gallery</span> </h1>
-
- 
-  <div class="row">
-    <div class="column">
-      <img src="image/5.jpeg" alt="Snow" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="image/live.jpg" alt="Forest" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="image/sweethome.jfif" alt="Forest" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="image/sweethome.jfif" alt="Forest" style="width:100%">
-    </div>
-    
-   
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="image/4.jpeg" alt="Snow" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="image/live.jpg" alt="Forest" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="image/sweethome.jfif" alt="Forest" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="image/sweethome.jfif" alt="Forest" style="width:100%">
-    </div>
-    
-    <div class="column">
-      <div class="box">
-           
-           
-        <a href="/Gallery.html" class="btn">  VIEW ALL <span class="fas fa-chevron-right"></span> </a>
-    </div>
-    </div>
-  </div>
-  
-
-  
-
-  </div>
-  
+  </div>  
 </section>
 
 <!-- services section ends -->
 
+
+
+
 <!-- about section starts  -->
 
-<section class="about" id="about">
+<section class="section_design" id="design">
+<div class="container bgwhite p-5">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="d-flex justify-content-between align-items-center">
+        <h1 class="heading"> <span>Made Your Own Neon Design</span> us </h1>
 
-    <h1 class="heading"> <span>Made Your Own Neon Design</span> us </h1>
-
-    <div class="row">
-
-        <div class="image">
-            <img src="image/logo.png" alt="">
-        </div>
-
-        <div class="content">
-            <h3>Neon Designing Information</h3>
-            <p>Solid 3D Models, Surface Component and Assemblies</p>
-            <p>Mechanical Designing information and Projects information and Downloads in 3D models Cetageory</p>
-           
-        </div>
-
+        <img src="image/logo.png" alt="" class="logo">
+      </div>
     </div>
-    <div class="row">
+
+    <div class="row align-items-center mt-5">
+    <div class="col-lg-6 col-md-6 col-12 ">
       <div class="content">
         <h3>Neon Designing Information</h3>
         <p>Solid 3D Models, Surface Component and Assemblies</p>
         <p>Mechanical Designing information and Projects information and Downloads in 3D models Cetageory</p>
-        
+       
     </div>
-      <div class="image">
-          <img src="image/barber.jfif" alt="">
-      </div>
+    </div>
 
+    
+      <div class="col-lg-6 col-md-6 col-12 text-center">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12 text-center">
       
+            <img src="image/barber.jfif" alt="" class="design_img">
+      
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 text-center">
+      
+          <img src="image/barber.jfif" alt="" class="design_img">
+    
+      </div>
+        </div>
+      
+      
+    </div>
 
+    
+    </div>
+    
   </div>
+  </div>
+</div>
 
 </section>
 
@@ -320,101 +318,176 @@
 <!-- about section ends -->
 
 
+
+
 <!-- Contact section Starts -->
-<section class="contact" id="contact">
-
-    <h1 class="heading"> <span>Our</span> Reviews
-     </h1>
-
-     <div class = "container">
-           
-      <div class = "testimonials">
-          <ul>
-              <li>
-                  <img src = "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png">
-                  <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."</p>
-                  <h1>-Sam-</h1>
-              </li>
-              <li>
-                  <img src = "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png">
-                  <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."</p>
-                  <h1>-Joe-</h1>
-              </li>
-              <li>
-                  <img src = "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png">
-                  <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."</p>
-                  <h1>-Ram-</h1>
-              </li>
-              <li>
-                  <img src = "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png">
-                  <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."</p>
-                  <h1>-Sam-</h1>
-              </li>
-              <li>
-                  <img src = "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png">
-                  <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."</p>
-                  <h1>-Joe-</h1>
-              </li>
-              <li>
-                  <img src = "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png">
-                  <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."</p>
-                  <h1>-Ram-</h1>
-              </li>
-          </ul>
+<section class="section_review" id="review">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12"> 
+        <div class="d-flex justify-content-between align-items-center">
+          <h1 class="heading"> <span>Our</span> Reviews
+          </h1>
+          <div class="d-flex">
+            <button class="btn-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="btn-next"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div> 
       </div>
+    </div>
+    
+  <div class="row mt-4">
+
+    <div class="your-class">
+      <div>
+          <div class="card">
+            <img src="asset/img/review/01.jpg"  alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."</p>
+              <p class="card-text">-Sam-</p>
+              
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card">
+          <img src="asset/img/review/01.jpg"  alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."</p>
+            <p class="card-text">-Sam-</p>
+            
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <img src="asset/img/review/01.jpg"  alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."</p>
+          <p class="card-text">-Sam-</p>
+          
+      </div>
+    </div>
   </div>
-</section> -->
+  <div>
+    <div class="card">
+      <img src="asset/img/review/01.jpg"  alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."</p>
+        <p class="card-text">-Sam-</p>
+        
+    </div>
+  </div>
+</div>
+<div>
+  <div class="card">
+    <img src="asset/img/review/01.jpg"  alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."</p>
+      <p class="card-text">-Sam-</p>
+      
+  </div>
+</div>
+</div>
+    </div>
+
+    
+      
+
+
+    
+    
+
+    
+  </div>
+    
+  </div>
+  
+  
+</section>
 <!-- Contact section ends -->
 
 <!-- footer section starts  -->
 
-<section class="footer">
 
-    <div class="box-container">
-
+<section class="section_footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-6">
         <div class="box">
-            <h3>quick links</h3>
-            <a href="#home"> <i class="fas fa-chevron-right"></i> home </a>
-            <a href="#services"> <i class="fas fa-chevron-right"></i> services </a>
-            <a href="#about"> <i class="fas fa-chevron-right"></i> about </a>
-            
-        </div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home"> <i class="fas fa-chevron-right"></i> home </a></li>
+            <li><a href="#services"> <i class="fas fa-chevron-right"></i> services </a></li>
+            <li> <a href="#about"> <i class="fas fa-chevron-right"></i> about </a></li>
+          </ul>
 
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-6">
         <div class="box">
-            <h3>our services</h3>
-            <a href="#.html"> <i class="fas fa-chevron-right"></i> 3D Neon Design </a>
-            <a href="#.html"> <i class="fas fa-chevron-right"></i> Neon Design Info </a>
-            
-        </div>
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +91-123456789 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +91-123456789 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> hitesh@gmail.com </a>
-            <a href="#"> <i class="fas fa-envelope"></i> hitesh@outlook.com </a>
+          <h3>Our Services</h3>
+          <ul>
+            <li><a href="#.html"> <i class="fas fa-chevron-right"></i> 3D Neon Design </a></li>
+            <li> <a href="#.html"> <i class="fas fa-chevron-right"></i> Neon Design Info </a></li>
+           
+          </ul>
           
-        </div>
-
+         
+          
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-6">
         <div class="box">
-            <h3>follow us</h3>
-			<a href="http://facebook.com"> <i class="fab fa-facebook-f"></i> facebook </a>
-			<a href="http://twiter.com/home"> <i class="fab fa-twitter"></i> twitter </a>
-			<a href="http://instagram.com"> <i class="fab fa-instagram"></i> instagram </a>
-			<a href="http://linkedin.com"> <i class="fab fa-linkedin"></i> linkedin </a>
-			<a href="httl://pinterest.in"> <i class="fab fa-pinterest"></i> pinterest </a>
-        </div>
+          <h3>Contact Info</h3>
+          <ul>
+            <li><a href="#"> <i class="fas fa-phone"></i> +91-123456789 </a></li>
+            <li> <a href="#"> <i class="fas fa-phone"></i> +91-123456789 </a></li>
+            <li> <a href="#"> <i class="fas fa-envelope"></i> hitesh@gmail.com </a></li>
+            <li> <a href="#"> <i class="fas fa-envelope"></i> hitesh@outlook.com </a></li>
+           
+          </ul>
 
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-6">
+        
+        <div class="box">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="http://facebook.com"> <i class="fab fa-facebook-f"></i> facebook </a></li>
+            <li> <a href="http://twiter.com/home"> <i class="fab fa-twitter"></i> twitter </a></li>
+            <li> <a href="http://instagram.com"> <i class="fab fa-instagram"></i> instagram </a></li>
+            <li> <a href="http://linkedin.com"> <i class="fab fa-linkedin"></i> linkedin </a></li>
+            <li> <a href="httl://pinterest.in"> <i class="fab fa-pinterest"></i> pinterest </a></li>
+           
+          </ul>
+   
+    
+    
+    
+      </div>
     </div>
+  </div>
 </section>
+
 
 <!-- footer section ends -->
 
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
 <!-- custom js file link  -->
-<script src="js/script.js"></script>
-<script src="js/Slider.js"></script>
+<script src="asset/other/slick.min.js"></script>
+<script src="asset/js/script.js"></script>
 
 </body>
 </html>
