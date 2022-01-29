@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="113" viewBox="0 0 110 113">
+  <g id="Gruppe_396" data-name="Gruppe 396" transform="translate(-581 -1914)">
+    <rect id="Rechteck_10" data-name="Rechteck 10" width="2.584" height="2.584" transform="translate(609.221 1942.057)" fill="#8c8179"/>
+    <rect id="Rechteck_11" data-name="Rechteck 11" width="2.584" height="2.584" transform="translate(655.737 1961.439)" fill="#8c8179"/>
+    <path id="Pfad_29" data-name="Pfad 29" d="M40.594,34.133a6.461,6.461,0,1,0,6.461,6.461A6.461,6.461,0,0,0,40.594,34.133Zm0,10.337a3.876,3.876,0,1,1,3.876-3.876A3.876,3.876,0,0,1,40.594,44.47Z" transform="translate(569.92 1902.756)" fill="#8c8179"/>
+    <g id="Gruppe_392" data-name="Gruppe 392">
+      <g id="Rechteck_9" data-name="Rechteck 9" transform="translate(581 1914)" fill="none" stroke="#8c8179" stroke-width="3">
+        <rect width="110" height="113" rx="5" stroke="none"/>
+        <rect x="1.5" y="1.5" width="107" height="110" rx="3.5" fill="none"/>
+      </g>
+      <path id="Pfad_30" data-name="Pfad 30" d="M76.234,45.223H49.1V1.292A1.293,1.293,0,0,0,47.808,0H1.292A1.293,1.293,0,0,0,0,1.292V71.065a1.293,1.293,0,0,0,1.292,1.292H6.46v1.292a3.876,3.876,0,0,0,7.753,0V72.357H25.842v3.876a1.293,1.293,0,0,0,1.292,1.292h49.1a1.293,1.293,0,0,0,1.292-1.292V46.515A1.292,1.292,0,0,0,76.234,45.223Zm-1.421,2.584a6.472,6.472,0,0,1-6.331,5.168H34.887a6.472,6.472,0,0,1-6.331-5.168ZM9.045,41.347h2.584V62.021H9.045ZM9.2,38.763l1.14-2.279,1.14,2.279ZM9.045,64.6h2.584v2.584H9.045Zm1.292,10.337a1.293,1.293,0,0,1-1.292-1.292V69.773h2.584v3.876A1.293,1.293,0,0,1,10.337,74.942Zm3.876-5.168V38.763a1.3,1.3,0,0,0-.136-.578l-2.584-5.168a1.347,1.347,0,0,0-2.313,0L6.6,38.185a1.3,1.3,0,0,0-.136.578v31.01H2.584V2.584H46.515V45.223H27.134a1.293,1.293,0,0,0-1.292,1.292V69.773Zm60.728,5.168H28.426V52.834a9.019,9.019,0,0,0,6.461,2.726H68.481a9.019,9.019,0,0,0,6.461-2.726V74.942Z" transform="translate(598.884 1931.72)" fill="#8c8179"/>
+    </g>
+    <path id="Pfad_31" data-name="Pfad 31" d="M365.884,162.133H342.626a1.292,1.292,0,0,0-1.292,1.292V178.93a1.293,1.293,0,0,0,1.292,1.292h23.258a1.293,1.293,0,0,0,1.292-1.292V163.425A1.293,1.293,0,0,0,365.884,162.133Zm-20.674,2.48,19.382.1v12.921h0l-19.382-.1" transform="translate(309.234 1794.137)" fill="#8c8179"/>
+    <rect id="Rechteck_12" data-name="Rechteck 12" width="6.461" height="2.584" transform="translate(662.197 1966.607)" fill="#8c8179"/>
+    <rect id="Rechteck_13" data-name="Rechteck 13" width="21.966" height="2.584" transform="translate(620.85 1939.473)" fill="#8c8179"/>
+    <rect id="Rechteck_14" data-name="Rechteck 14" width="16.797" height="2.584" transform="translate(620.85 1944.641)" fill="#8c8179"/>
+    <rect id="Rechteck_15" data-name="Rechteck 15" width="2.584" height="2.584" transform="translate(629.895 1996.325)" fill="#8c8179"/>
+    <rect id="Rechteck_16" data-name="Rechteck 16" width="16.797" height="2.584" transform="translate(636.355 1996.325)" fill="#8c8179"/>
+    <rect id="Rechteck_17" data-name="Rechteck 17" width="11.629" height="2.584" transform="translate(636.355 2001.494)" fill="#8c8179"/>
+    <rect id="Rechteck_18" data-name="Rechteck 18" width="9.045" height="2.584" transform="translate(662.197 1961.439)" fill="#8c8179"/>
+  </g>
+</svg>
